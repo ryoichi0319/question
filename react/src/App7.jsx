@@ -136,7 +136,7 @@ const watchAge = watch("age");
   return (
     <div>
       <div className="max-w-md mx-auto p-4 bg-white rounded shadow-lg mt-10">
-        <h1 className="text-2xl font-bold mb-4">アンケートaaaa</h1>
+        <h1 className="text-2xl font-bold mb-4">アンケート</h1>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="mb-4">
             <label className="block text-sm font-semibold text-gray-600">
