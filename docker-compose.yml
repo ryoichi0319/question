@@ -60,6 +60,8 @@ services:
 networks:
   backend:
     driver: bridge
+    external: true
+
     name: app_network
     ipam:
       config:
